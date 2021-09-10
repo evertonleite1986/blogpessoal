@@ -2,7 +2,6 @@ import Layout from "../../components/layout";
 import { pegarTodosOsIds, pegarDadosDoPost } from "../../lib/posts";
 import Head from "next/head";
 import Date from '../../components/date';
-import posts from '../../styles/posts.module.css';
 
 
 export default function Post({ dadosDosPosts }) {
