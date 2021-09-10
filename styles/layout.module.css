@@ -1,0 +1,53 @@
+.container {
+  max-width: 36rem;
+  padding: 3rem;
+  margin: 3rem auto 6rem;
+  background-color: rgba(22, 239, 246, 0.25);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.headerHomeImage {
+  width: 12rem;
+  height: 12rem;
+}
+
+.headerHomeImage:hover {
+  transition: all 0.8s;
+  transform: scale(1.8) ;
+}
+
+.borderCircle {
+  border-radius: 50%;
+}
+
+.heading2XL {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.colorLink {
+  color: inherit;
+}
